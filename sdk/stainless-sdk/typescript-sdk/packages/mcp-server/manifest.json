@@ -1,0 +1,45 @@
+{
+  "dxt_version": "0.2",
+  "name": "petstore-sdk-stainless-test-mcp",
+  "version": "0.0.1",
+  "description": "The official MCP Server for the Petstore SDK Stainless Test API",
+  "author": {
+    "name": "Petstore SDK Stainless Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stainless-sdks/petstore-sdk-stainless-test-typescript.git"
+  },
+  "homepage": "https://github.com/stainless-sdks/petstore-sdk-stainless-test-typescript/tree/main/packages/mcp-server#readme",
+  "server": {
+    "type": "node",
+    "entry_point": "index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/index.js"
+      ],
+      "env": {
+        "PETSTORE_API_KEY": "${user_config.PETSTORE_API_KEY}"
+      }
+    }
+  },
+  "user_config": {
+    "PETSTORE_API_KEY": {
+      "title": "api_key",
+      "description": "",
+      "required": true,
+      "type": "string"
+    }
+  },
+  "tools": [],
+  "tools_generated": true,
+  "compatibility": {
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  },
+  "keywords": [
+    "api"
+  ]
+}

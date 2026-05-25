@@ -1,0 +1,4 @@
+configured_endpoints: 19
+openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/temp-org/petstore-sdk-stainless-test-b8dcd16905b3079385fcb8cc6e030e12d323655b9b9fe23f46ce8171bd7b4dcc.yml
+openapi_spec_hash: 356a7298b2abac3fdf72ad5ee046b952
+config_hash: 839200cde5f5ef7caed0eca3b0162f06
