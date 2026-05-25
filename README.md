@@ -5,10 +5,10 @@ This repository is organized to provide TypeScript SDK generation for both Stain
 ## src/
 This folder contains the source files required for SDK generation. It is organized as follows:
 
-- **APIMatic/**
+- **apimatic-src/**
   - `openapi.yml`: The OpenAPI specification file for the APIMatic SDK.
   - `APIMATIC-META.json`: Configuration file for APIMatic SDK generation.
-- **Stainless/**
+- **stainless-src/**
   - `openapi.yml`: The OpenAPI specification file for the Stainless SDK.
   - `stainless.yml`: Configuration file for Stainless SDK generation.
 
